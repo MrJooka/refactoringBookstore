@@ -1,9 +1,11 @@
-import SearchBar from "../../components/bookstore/header/searchBar";
+import BookstoreBody from "../../components/bookstore/BookstoreBody";
+import BookstoreHeader from "../../components/bookstore/BookstoreHeader";
 
 const Bookstore = () => {
   return (
     <div>
-      <SearchBar />
+      <BookstoreHeader />
+      <BookstoreBody />
     </div>
   );
 };

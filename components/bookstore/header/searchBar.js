@@ -1,4 +1,4 @@
-import styles from "./searchBar.module.css";
+import styles from "./SearchBar.module.css";
 import Image from "next/image";
 
 const SearchBar = () => {
